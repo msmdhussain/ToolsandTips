@@ -1,0 +1,23 @@
+To tar single folder:
+tar cvf folder1.tar folder1
+
+To tar multiple folders (in current directory):
+tar cvf folders.tar folder1 folder2 folder3
+
+To tar multiple folders (in different directories):
+tar cvf folders.tar /path/to/folder1 /path/to/folder2 /path/to/folder3
+
+To tar single file:
+tar cvf file.tar file1.php
+
+To tar multiple files (in current directory):
+tar cvf files.tar file1.php file2.txt file3.html
+
+To tar multiple files (in different directories):
+tar cvf files.tar /path/to/file1.php /path/to/file2.txt /path/to/file3.html
+
+Untar:
+
+ Type tar -xvf yourfile.tar to extract the file to the current directory.
+
+ Or tar -C /myfolder -xvf yourfile.tar to extract to another directory.
